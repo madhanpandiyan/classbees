@@ -274,60 +274,12 @@ li {
 .bg-img {
     background-position: center center;
     background-size: cover;
+    background-attachment:scroll;
 }
-
-.bg-img1 {
-    background-position: center center;
-    background-size: cover;
-    background-image: url(img/bg-img/hero-4.jpg);
-@media (max-width: 480px) {
-                        body {
-                            background-image: url(img/bg-img/hero-4mobile.jpg);
-                        }
-                    }
-}
-
-.bg-img2 {
-    background-position: center center;
-    background-size: cover;
-    background-image: url(img/bg-img/hero-6.jpg);
-@media (max-width: 480px) {
-                        body {
-                            background-image: url(img/bg-img/hero-6mobile.jpg);
-                        }
-                    }
-}
-
-.bg-img3 {
-    background-position: center center;
-    background-size: cover;
-    background-image: url(img/bg-img/hero-9.jpg);
-@media (max-width: 480px) {
-                        body {
-                            background-image: url(img/bg-img/hero-9mobile.jpg);
-                        }
-                    }
-}
-
-.bg-img4 {
-    background-position: center center;
-    background-size: cover;
-    background-image: url(img/bg-img/hero-8.jpg);
-@media (max-width: 480px) {
-                        body {
-                            background-image: url(img/bg-img/hero-8mobile.jpg);
-                        }
-                    }
-}
-
-
-
-
 
 .bg-overlay {
     position: relative;
-    background-attachment:scroll;
-    width: auto;
+    background-attachment:fixed;
     z-index: 1;
 }
 
