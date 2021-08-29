@@ -274,12 +274,11 @@ li {
 .bg-img {
     background-position: center center;
     background-size: cover;
-    background-attachment:scroll;
 }
 
 .bg-overlay {
     position: relative;
-    background-attachment:fixed;
+    background-attachment:scroll;
     z-index: 1;
 }
 
