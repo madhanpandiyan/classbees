@@ -326,7 +326,8 @@ li {
 
 .bg-overlay {
     position: relative;
-    background-attachment:scroll;
+    background-attachment:fixed;
+    width: auto;
     z-index: 1;
 }
 
