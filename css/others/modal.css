@@ -30,6 +30,7 @@ color: #aaaaaa;
 float: right;
 font-size: 28px;
 font-weight: bold;
+text-align: right;
 }
 
 .close:hover,
