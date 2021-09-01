@@ -795,6 +795,12 @@ li {
     margin-bottom: 10px;
 }
 
+.cta-content h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
 .cta-content p {
     color: #fff;
     margin-bottom: 30px;

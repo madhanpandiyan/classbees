@@ -1,34 +1,15 @@
-/* Fading animation */
-	.fade {
+/* Fading animation animated-image*/
+	#fade {
 	-webkit-animation: animated-image 20s ease infinite;
-	animation: animated-image 20s ease infinite;
+	animation: animated-image 10s ease infinite;
 	}
 
-@-webkit-keyframes animated-image {
-	0% {
-	background-position: 0% 50%;
-	}
-	50% {
-	background-position: 100% 20%;
-	}
-	100% {
-	background-position: 0% 50%;
-	}
-	}
+        @-webkit-keyframes animated-image {
+          from {opacity: 1} 
+          to {opacity: .4}
+          }
 
-@keyframes animated-image {
-	0% {
-	background-position: 0% 50%;
-	}
-	50% {
-	background-position: 100% 20%;
-	}
-	100% {
-	background-position: 0% 50%;
-	}
-	}
-
-/* On smaller screens, decrease text size */
-	@media only screen and (max-width: 300px) {
-	.text {font-size: 11px}
-	}
+        @keyframes animated-image {
+          from {opacity: 1} 
+          to {opacity: .4}
+          }
