@@ -6,7 +6,6 @@ display: none; /* Hidden by default */
 position: fixed; /* Stay in place */
 z-index: 1; /* Sit on top */
 padding-top: 200px; /* Location of the box */
-
 left: 0;
 top: 0;
 width: 100%; /* Full width */
@@ -25,8 +24,18 @@ height: 600px;
 overflow-y:scroll;
 border: 1px solid #888;
 width: 80%;
+}
 
-/* overflowauto Enable scroll if needed */
+@media screen and (max-width: 500px){
+	.modal-policycontent {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 5px;
+	height: 200px;
+	overflow-y:scroll;
+	border: 1px solid #888;
+	width: 80%;
+	}
 }
 
 /* The Privacy Close Button */
