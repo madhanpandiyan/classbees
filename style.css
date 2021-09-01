@@ -829,6 +829,14 @@ li {
     color: #4CA456;
 }
 
+.contactcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  
+}
+
+
 /* Footer Area CSS */
 
 .single-footer-widget {

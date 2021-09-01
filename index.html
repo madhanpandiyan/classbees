@@ -34,6 +34,7 @@
         
     <!-- Modal Stylesheet -->
     <link href="css/others/modal.css" rel="stylesheet">
+    <link href="css/others/privacymodal.css" rel="stylesheet">
     
     <!-- CookieConsent Stylesheet -->
     <link href="css/others/cookieconsent.css" rel="stylesheet">
@@ -330,8 +331,10 @@
                     <div class="cta-content text-center">
                         <h2>Want to get in touch?</h2>
                         <p>We offer a plan that suits your need. For any further information, contact us either by phone or email.</p>
-                        <!--<a href="ContactFrom_v17/index.html" class="btn fancy-btn">Contact us</a>-->
-                        <a id="myBtn2" class="btn fancy-btn fancy-dark">Contact Us</a>
+                        <button type="button" class="fancy-btn">Contact Us</button>
+                        <div class="contactcontent">
+                          <p>admin@classbees.com or +44 0113 252 1120</p>
+                        </div>
 
                         
                         
@@ -384,8 +387,230 @@
                             <h6>Policy</h6>
                             <nav>
                                 <ul>
-                                    <li><a href="ClassbeesClassification.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Privacy Policy</a></li>
-                                    <li><a href="ClassbeesCookiePolicy.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Cookie Policy</a></li>
+                                    <li><a href="#" id="myPrivacyBtn"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Privacy Policy</a></li>
+                                    
+                                    <!-- The Modal -->
+                                    <div id="myPrivacyModal" class="policymodal">
+                                        <!-- Modal content -->
+                                        <div class="modal-policycontent">
+                                            <span class="privacyclose">&times;</span>
+                                                                               
+                                            <div class="contact100-more flex-col-c-m" style="background-image: url('ContactFrom_v17/images/bg-05.jpg');">
+                                            <div class="contact100-more-policytitle">
+                                                
+                                                    <p><img src="./img/logo-alt.png" alt="logo"></p>                                                            
+                                                    <br>                                                           
+                                                    <h1>Classbees PRIVACY POLICY</h1>
+                                                    <br>
+                                                    <ol>                                               
+                                                    <h2>1.	WHO WE ARE?</h2>
+                                                    <h2>1.1	This privacy policy belongs to Sterling Software Limited company also trading as which Classbees. The controller of this privacy policy hence will be the Sterling Software Limited. Sterling Software Limited is registered at 9 Headingly Ln, Headingly, Leeds, United Kingdom, LS6 1BS.</h2>
+                                                    <h2>1.2	We have a data protection officer who is accountable for all our issues relating to the protection of personal data. The data protection officer can be contacted at the below:</h2>
+                                                        <br>
+                                                        <h3>The Data Protection Officer,<br>
+                                                        Sterling Software Limited,<br>
+                                                        9 Headingly Ln, Headingly, Leeds,<br>
+                                                        United Kingdom, LS6 1BS</h3>
+                                                    <br>
+
+                                                    <h2>2.	WHO DOES THIS PRIVACY POLICY APPLY TO?</h2>
+                                                    <h2>2.1	This privacy policy applies to:</h2>
+
+                                                        <h3>(a) Customers.</h3>
+                                                        <h3>(b) Prospective customers.</h3>
+                                                        <h3>(c) Individuals that use our websites.</h3>
+                                                        <h3>(d) Former customers.</h3>
+                                                        <h3>(e) Nominated users or individuals acting under a power of attorney.</h3>
+                                                        <h3>(f) Shareholders.</h3>
+
+                                                    <h2>2.2	Our services include children's data, unless we expressly state otherwise, we collect and/or process personal data relating to children, or anyone aged under 18 years.</h2>
+                                                    <h2>2.3	It is important that the personal data we hold about you is accurate and current. It is your responsibility to keep us up to date if you make any changes to your personal data either through updating your details within the Classbees portal or contacting us here.</h2>
+                                                    <br>
+
+                                                    <h2>3.	WHAT INFORMATION DO WE COLLECT?</h2>
+                                                    <h2>3.1	Personal data is any information that can identify a natural person. We may collect, use, store and transfer different categories of personal data to enable us to deliver our services, this may include:</h2>
+
+                                                        <h3>(a) Data about your Identity including first name, last name, title, month and year of birth and gender.</h3>
+                                                        <h3>(b) Data about your contact details including service address, correspondence/billing address, email address, landline telephone number and mobile phone number.</h3>
+                                                        <h3>(c) Financial data including your financial contact.</h3>
+                                                        <h3>(d) Data relating to a transaction including details about the amount of payments to and from related parties and about the services that you have purchased from us.</h3>
+                                                        <h3>(e) Technical data including IP address, your login data, browser type and version, time zone and location, browser plug-in types and versions, operating system and platform, and other information on the devices you use to access our services.</h3>
+                                                        <h3>(f) Data about your Classbees profile including your Account username and password, your preferences, feedback and survey responses.</h3>
+                                                        <h3>(g) Data about your usage of our product services including the amount of time you spend on the Classbees portal and the data insight.</h3>
+                                                        <h3>(h) Data relating to your marketing and communications choices including what method you would like to receive marketing and how frequently.</h3>
+                                                        <h3>(i) Special categories of personal data including information about your health that we may need to know to provide you with the best service for you or a child.</h3>       
+
+                                                    <h2>3.2	We may also collect and use non-personal data such as statistical or demographic data. This data may be derived from your personal data but is not considered personal data as this data cannot identify you.</h2>
+                                                    <br>
+
+                                                    <h2>4. HOW DO WE COLLECT INFORMATION?</h2>
+                                                    <h2>4.1	Information you give us</h2>
+
+                                                        <h3>(a) When you subscribe to our services, we will need certain information to process your order.</h3>
+                                                        <h3>(b) When you contact us to discuss your services, we may ask for certain information to be able to confirm your identity, check our records and answer your questions quickly and accurately.</h3>
+                                                        <h3>(c) If you take part in any trials, complete any survey or enter any competitions we may ask for information about you, which we will make clear to you at the time and for the purpose we will be using this information.</h3>
+                                                    <h2>4.2	Information we automatically collect</h2>
+                                                    <h2>We will automatically collect information:</h2>
+                                                        <h3>(a) when you use our services.</h3>
+                                                        <h3>(b) when you visit our websites or use our applications, we may collect and process  information about your usage of these by using "cookies".</h3>
+                                                        <h3>(c) when you download or use applications created by us and, where applicable, have requested or consented to location services, we may receive information about your location and your device, including a unique identifier for your device. We may use this information to provide you with location-based services, such as search results, and other personalised content. Most mobile devices allow you to turn off location services. Our application does not collect precise information about the location of your device.</h3>
+                                                    <h2>4.3	Information we receive from other sources</h2>
+                                                    <h2>We may receive personal data about you from third parties and other entities, publicly available sources in the following categories:</h2>
+                                                        <h3>(a) companies contracted by us to help us provide services to you.</h3>
+                                                        <h3>(b) marketing or market research organisations.</h3>
+                                                        <h3>(c) credit reference agencies or fraud prevention agencies.</h3>
+                                                    <br>
+
+                                                    <h2>5.	HOW DO WE USE INFORMATION?</h2>
+                                                    <h2>5.1	The information we collect and receive helps us to better understand what you need from us and to improve the provision of our services to you.</h2>
+                                                    <h2>5.2	We use the information collected for example to:</h2>
+                                                        <h3>(a)	verify your identity when you use our services or contact us.</h3>
+                                                        <h3>(b)	process your enquiries or subscription, for example when assessing a subscription requirement, we may use automated decision-making systems.</h3>
+                                                        <h3>(c)	monitor, record, store and use any telephone, e-mail, or other electronic communications with you for audit, compliance, and training purposes, so that we can check any instructions given to us and to improve the quality of our customer service, and to meet our legal and regulatory obligations.</h3>
+                                                        <h3>(d)	where you have agreed, provide you with information about other Classbees services, features or offers which you may be interested in.</h3>
+                                                        <h3>(e)	to tell you about changes to our websites, services or terms and conditions.</h3>
+                                                        <h3>(f)	carry out any personal data and/or marketing analysis, profiling or create statistical or testing information to help us personalise the services we offer you and to understand our users/customers better, understand what our users/customers want and how they use our services.</h3>
+                                                        <h3>(g)	recover any outstanding balance you may owe to us for using our services.</h3>
+                                                        <h3>(h)	analyse our services with the aim of improving them.</h3>
+                                                        <h3>(i)	prevent or detect a crime, fraud, or misuse of, or damage to our network, and to investigate where we believe any of these have occurred.</h3>
+                                                    <h2>5.3	Your data may also be used for other purposes for which you give your specific permission or, in very limited circumstances, when required by law.</h2>
+                                                    <h2>5.4	We may supplement the information directly collected by us with data from third parties (for example socio-demographic data) to further improve our data quality as well as the services we offer customers.</h2>
+                                                    <br>
+
+                                                    <h2>6.	WHEN WILL WE SHARE YOUR DATA WITH OTHERS?</h2>
+                                                    <h2>6.1	We may need to share your information with organisations outside Classbees e.g., to help us provide our services to you.</h2>
+                                                    <h2>6.2	The categories of non-Sterling Software Limited organisations we would share your details with are:</h2>
+                                                        <h3>(a) Third party suppliers who help Classbees to perform our services.</h3>
+                                                        <h3>(b) Professional advisors.</h3>
+                                                        <h3>(c) Law enforcement agencies.</h3>
+                                                        <h3>(d) Other companies as part of the process of selling one or more of our businesses or part of those businesses.</h3>
+                                                        <h3>(e) Regulators (such as the ICO).</h3>
+                                                    <h2>6.3	Where we share your information with third parties, they are required to follow our express instructions in respect of the use of your personal information and they must comply with all applicable UK data protection laws to protect your information and keep it secure.</h2>
+                                                    <br>
+
+                                                    <h2>7.	PROTECTING INFORMATION</h2>
+                                                    <h2>7.1	We take protecting your data seriously and will do our utmost to employ appropriate organisational and technical security measures to protect you against unauthorised disclosure or processing.</h2>
+                                                    <h2>7.2	Unfortunately, we cannot guarantee the security of transmitting information via the internet. We have tried to create a secure and reliable website and application for our users in line with industry standards. However, we have no responsibility or liability for the security of personal information transmitted via the internet.</h2>
+                                                    <br>
+
+                                                    <h2>8.	WHY DO WE PROCESS YOUR DATA?</h2>
+                                                    <h2>8.1	We process each type of personal data for one the following reasons:</h2>
+                                                        <h3>(a) We need to process the data under our contract with you for our services.</h3>
+                                                        <h3>(b) We have a legitimate interest as a business in processing your data.</h3>
+                                                        <h3>(c) We have a legal obligation to process the data. or</h3>
+                                                        <h3>(d) We have your consent (which you can withdraw at any time).</h3>
+                                                    <h2>8.2	If you don't provide us with the data, we need then we may not be able to perform our contract with you and may need to terminate the contract. If this happens, we will notify you as set out in our Terms and Conditions.</h2>
+                                                    <br>
+
+                                                    <h2>9.	TRANSFERS OF DATA OUTSIDE OF THE UNITED KINGDOM</h2>
+                                                    <h2>9.1	Our database which holds the data is managed by third parties may be outside of the United Kingdom. However, we have a contract in place to ensure that your information is adequately protected, and we will remain bound by our obligations under applicable UK data protection laws even when your personal information is processed outside of the UK. The sorts of measures we use to protect your data in this instance are security reviews of the organisations, contractual model clauses approved for use by the European Commission or other approved transfer mechanisms.</h2>
+                                                    <br>
+
+                                                    <h2>10.	HOW LONG DO WE HOLD YOUR INFORMATION FOR?</h2>
+                                                    <h2>10.1 Unless there is a specific regulatory or legal requirement for us to keep your information longer, we will keep your information for a year long as it is necessary for the purpose for which it was collected.</h2>
+                                                    <h2>10.2 To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data and whether we can achieve those purposes through other means, and the applicable legal requirements.</h2>
+                                                    <br>
+
+                                                    <h2>11.	YOUR RIGHTS</h2>
+                                                    <h2>11.1 As a data subject you have several personal rights under data protection laws in relation to your personal data. These are:</h2>
+                                                        <h3>(a) Subject access requests - You have a right to access personal data that we hold as a data controller.</h3>
+                                                        <h3>(b) Right to be forgotten - In certain circumstances you have a right to request that your personal data be erased from the systems within our control.</h3>
+                                                        <h3>(c) Rectification - You have a right to correct your personal data that we hold as a data controller.</h3>
+                                                        <h3>(d) Withdraw consent - Where we have offered you the right to consent to giving us your data, for instance with your marketing preferences, you have the right to withdraw your consent at any time.</h3>
+                                                        <h3>(e) Objection and restriction of processing - In certain circumstances, you have a right to object to or request we restrict our processing of your personal data.</h3>
+                                                        <h3>(f) Right to port - You have a right to receive certain information about you in a machine-readable format.</h3>
+                                                    <h2>11.2 If you would like more information about these rights or how to apply them, please go to our help page.</h2>
+                                                    <br>
+
+                                                    <h2>12.	COMPLAINTS</h2>
+                                                    <h2>12.1 If you would like to make a complaint about our use of the personal data you should contact our Data Protection Officer at the details above. If we have not resolved your complaint you can contact the UK data protection regulator, the Information Commissioner's Office (ICO) at <a href="www.ico.org.uk">www.ico.org.uk</a>. We would, however, appreciate the chance to deal with your concerns before you approach the ICO, so please contact us in the first instance.</h2>
+                                                    <br>
+
+                                                    <h2>13.	CHANGES TO THIS PRIVACY POLICY</h2>
+                                                    <h2>We may update this privacy policy from time to time. The revised policy will be posted to this page. This policy was last updated 11th August 2021.</h2>
+                                                    </ol>    
+                                                </div>                                                          
+                                            </div>
+                                        </div>
+                                    </div>                                                                                                      
+                                                                      
+                                    <li><a href="#" id="myCookieBtn"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Cookie Policy</a></li>
+                                                                    
+                                                <!-- The Modal -->
+                                                <div id="myCookieModal" class="policymodal">
+                                                    <!-- Modal content -->
+                                                    <div class="modal-policycontent">
+                                                        <span class="cookieclose">&times;</span>
+                                                        <div class="contact100-more flex-col-c-m" style="background-image: url('ContactFrom_v17/images/bg-05.jpg');">
+                                                        <div class="contact100-more-policytitle">
+                                                                <p><img src="./img/logo-alt.png" alt="logo"></p>                                                            
+                                                                <br>                                                           
+                                                                <h1>Classbees COOKIE POLICY</h1>
+                                                                <br>
+                                                                <h2>What are cookies?</h2>
+                                                                <p>Cookies are used by websites to help them run smoothly and ensure certain features work properly.  At Classbees we use cookies to remember your preferences you have made on our site.</p><br>
+                                                                <p>Cookies cannot harm or scan your computer for private information stored on your hard drive.
+                                                                When you visit a Classbees website, cookies will automatically be placed on your computer, tablet, or mobile web browser. You can choose to disable or manage cookies anytime through your browser settings, however if you do some features on the site may not work properly.</p>
+                                                                <br>
+                                                                <h2>Types of cookies</h2>
+                                                                <h2>1. Temporary Cookies</h2>
+                                                                <p>Temporary cookies are sometimes called "session cookies" and are only stored on your computer until you close your browser. They help us to remember things you have selected on previous pages, so you do not have to re-enter information.<p><br>
+                                                                <h2>2. Persistent Cookies</h2>
+                                                                <p>These are stored on your browser for a fixed period (for example, 30 days), after which they are deleted.  These cookies can help us remember preferences you may have made when returning to our website.</p>
+                                                                <br>
+                                                                <h2>Categories of cookie</h2>
+                                                                <p>The cookies on our site have lots of different uses and can be categorised as; essential, functional, or targeted.<p><br>
+                                                                <h2>1. Essential cookies</h2>
+                                                                <p>Essential cookies are sometimes called &quot;strictly necessary&quot; as without them we cannot provide many services that you need on our site. For example, essential cookies help keep you securely logged in between pages on Classbees and remember your plan/pricing as you move around the website.</p><br>
+                                                                <h2>2. Functional cookies</h2>
+                                                                <p>Functional cookies allow us to remember any preferences you have made, and we use them to improve your online experience. For example, functional cookies will store your Classbees email address and username, so you do not have to re-type them every time you visit the site.</p><br>
+                                                                <h2>3. Targeted cookies</h2>
+                                                                <p>Targeted cookies are used by advertisers on our website to display more relevant adverts to you. These cookies track your browser as you visit different websites and are sometimes called "behavioural cookies".</p>
+                                                                <br>
+                                                                <p>These cookies are often linked to an advertising network that collects and shares this information with multiple advertisers.</p>
+                                                                <p>You can choose to manage these cookies through your browser settings, but you may find it more effective to use the advertising network's own opt out tool.</p>
+                                                                <br>
+                                                                <h2>Cookie Policy</h2>
+                                                                <p>To ensure all features on our website work properly, your computer, tablet or mobile needs to accept cookies. Our cookies do not store your personal information but provide us with anonymous information about use of the website and help us recognise you so we can offer you services more relevant to you.</p><br>
+                                                                <p>Cookies will automatically be placed on your computer, tablet, or mobile web browser when you visit our Classbees site, and your use of our website services signifies your consent to our policy.</p><br>
+                                                                <p>We also work with select partners that provide content for our website who will have their own cookie policies. You can choose to manage or disable cookies anytime through your browser settings, but if you do some parts of the site may not work properly.</p><br>
+                                                                <h2>Manage Cookies</h2>
+                                                                <p>You can choose to manage or disable cookies anytime through your browser settings, however, if you do some parts of our site may not work properly.</p><br>
+                                                                <p>We currently use the below listed <strong>Analytics and customisation cookies:</strong></p>
+                                                                <p>These cookies collect information that is used either in aggregate form to help us understand how our Websites are being used or how effective our marketing campaigns are, or to help us customise our Websites for you.</p><br>
+                                                                <hr>
+                                                                <p>Name:_gid<br>
+                                                                Purpose:Keeps an entry of unique ID which is then used to come up with statistical data on website usage by visitors. It is a HTTP cookie type and expires after a browsing session.<br>
+                                                                Provider:.app.classbees.com/login<br>
+                                                                Service:Google Analytics View Service Privacy Policy<br>
+                                                                Country:United Kingdom<br>
+                                                                Type:http_cookie</p>
+                                                                <hr>
+                                                                <p>Name:_ga<br>
+                                                                Purpose:It records a particular ID used to come up with data about website usage by the user. It is a HTTP cookie that expires after 2 years.<br>
+                                                                Provider:.app.classbees.com/login<br>
+                                                                Service:Google Analytics View Service Privacy Policy<br>
+                                                                Country:United Kingdom<br>
+                                                                Type:http_cookie</p>
+                                                                <hr>
+                                                                <p>Name:_gat<br>
+                                                                Purpose:Enables Google Analytics regulate the rate of requesting. It is a HTTP cookie type that lasts for a session.<br>
+                                                                Provider:.app.classbees.com/login<br>
+                                                                Service:Google Analytics View Service Privacy Policy<br>
+                                                                Country:United Kingdom<br>
+                                                                Type:http_cookie</p>
+                                                                <hr><br>
+                                                                <h2>Further information and advice</h2>
+                                                                <p>Consumer information surrounding the use of cookies - <a href="http://www.allaboutcookies.org/">All About Cookies</a> </p>
+                                                                <p>Information on how behavioural advertising works and general cookie advice - <a href="http://www.youronlinechoices.com/uk/">Your Online choices</a> </p>
+                                                                <p>Quick answers to many of your most popular cookie questions - <a href="http://www.microsoft.com/info/cookies.mspx">Microsoft Cookies Guide</a></p>
+                                                                <p>General Data Protection Regulation (UK GDPR) - <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/">GDPR</a></p>
+                                                                <p>Independent UK authority guidelines and data privacy advice - <a href="http://ico.org.uk/">The Information Commissioner's Office</a></p>
+                                                                <p>Tool to make opting out of behavioural targeted ads easy - <a href="http://www.networkadvertising.org/managing/opt_out.asp">Network Advertising Initiative Website</a></p>
+                                                            </div>                                                          
+                                                        </div>
+                                                    </div>
+                                                </div>
                                 </ul>
                             </nav>
                         </div>
@@ -424,5 +649,7 @@
     <script src="js/jquery/Typetext.js"></script>
     <!-- Contact Us JS -->
     <script src="ContactFrom_v17/js/contactmodal.js"></script>
-    
+    <!-- Contact Us JS -->
+    <script src="js/jquery/privacymodal.js"></script>
+    <script src="js/others/collapse.js"></script>
 </body>
