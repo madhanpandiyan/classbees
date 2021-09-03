@@ -20,7 +20,7 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 background-color: #fefefe;
 margin: auto;
 padding: 5px;
-height: 600px;
+height: auto;
 overflow-y:scroll;
 border: 1px solid #888;
 width: 80%;
@@ -31,7 +31,7 @@ width: 80%;
 	background-color: #fefefe;
 	margin: auto;
 	padding: 5px;
-	height: 400px;
+	height: auto;
 	overflow-y:scroll;
 	border: 1px solid #888;
 	width: 80%;
