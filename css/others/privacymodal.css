@@ -38,12 +38,12 @@ width: 80%;
 	}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
 	.modal-policycontent {
 	background-color: #fefefe;
 	margin: auto;
 	padding: 5px;
-	height: 400px;
+	height: 300px;
 	overflow-y:scroll;
 	border: 1px solid #888;
 	width: 80%;
