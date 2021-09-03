@@ -20,10 +20,22 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 background-color: #fefefe;
 margin: auto;
 padding: 5px;
-height: auto;
+height: 600px;
 overflow-y:scroll;
 border: 1px solid #888;
 width: 80%;
+}
+
+@media screen and (max-width: 1366px)and (min-width: 501px) {
+	.modal-policycontent {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 5px;
+	height: 500px;
+	overflow-y:scroll;
+	border: 1px solid #888;
+	width: 80%;
+	}
 }
 
 @media screen and (max-width: 500px){
@@ -31,7 +43,7 @@ width: 80%;
 	background-color: #fefefe;
 	margin: auto;
 	padding: 5px;
-	height: auto;
+	height: 400px;
 	overflow-y:scroll;
 	border: 1px solid #888;
 	width: 80%;
