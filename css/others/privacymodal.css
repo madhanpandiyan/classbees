@@ -26,7 +26,7 @@ border: 1px solid #888;
 width: 80%;
 }
 
-@media screen and (max-width: 1366px)and (min-width: 601px) {
+@media screen and (max-width: 1366px)and (min-width: 751px) {
 	.policymodal {
 	padding-top: 50px; /* Location of the box */
 	}	
