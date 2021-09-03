@@ -188,7 +188,7 @@
     }
 }
 
-@media screen and (max-width: 991px) and (max-width: 304px){
+@media screen and (max-width: 991px) and (min-width: 304px){
     .navbar-expand-lg .navbar-nav .nav-link {
     color: white;
     }
