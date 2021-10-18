@@ -376,6 +376,38 @@ li {
     height: 900px;
 }
 
+.video-overview > a {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.video-overview > a:after {
+    background-color: #fff;
+    width: calc(100% - 45px);
+    right: -1px;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    height: 2px;
+}
+
+.video-overview > a > i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 30px;
+    margin-right: 15px;
+    border-radius: 50%;
+    color: #2bc0a4;
+}
+
 .fancy-hero-content h1 {
     font-size: 48px;
     color: #fff;
